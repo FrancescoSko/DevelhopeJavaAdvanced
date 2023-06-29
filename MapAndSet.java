@@ -1,6 +1,5 @@
-package JavaAdvanced;
+package JavaAdvanced.DevelhopeJavaAdvanced;
 
-import java.sql.Array;
 import java.util.*;
 
 public class MapAndSet {
