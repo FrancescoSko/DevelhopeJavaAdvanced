@@ -4,8 +4,8 @@ public class Boat extends Vehicle{
     private int maxKnotsSpeed;
     private double boatKilosWeight;
 
-    public Boat (int maxKnotsSpeed, double boatKilosWeight){
-        type = "Boat";
+    public Boat (int maxKnotsSpeed, double boatKilosWeight, String type){
+        this.type = type;
         this.maxKnotsSpeed = maxKnotsSpeed;
         this.boatKilosWeight = boatKilosWeight;
 
