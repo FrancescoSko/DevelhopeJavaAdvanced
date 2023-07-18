@@ -3,11 +3,11 @@ package JavaAdvanced.DevelhopeJavaAdvanced.AbstractClasses;
 public class Car extends Vehicle{
 private int numberOfDoors;
 private double carPrice;
-    public Car (int numberOfDoors, double carPrice){
+    public Car (int numberOfDoors, double carPrice, String type, int numberOfWheels){
         this.numberOfDoors = numberOfDoors;
         this.carPrice = carPrice;
-        type = "Car";
-        numberOfWheels = 4;
+        this.type = type;
+        this.numberOfWheels = numberOfWheels;
     }
 
     @Override
